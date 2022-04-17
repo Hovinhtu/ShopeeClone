@@ -16,7 +16,7 @@
         <div class="grid">
           <nav class="navbar">
             <ul class="navbar__list">
-              <li class="navbar__item navbar__item--separate">
+              <li class="navbar__item separate">
                 Vào cửa hàng trên ứng dụng TickID
                 <div class="navbar__qr">
                   <img
@@ -138,7 +138,7 @@
                 >
               </li>
               <li
-                class="navbar__item navbar__item--strong navbar__item--separate"
+                class="navbar__item navbar__item--strong separate"
               >
                 Đăng ký
               </li>
@@ -161,7 +161,7 @@
             </div>
 
             <div class="header__search">
-              <div class="header__search__group">
+              <div class="header__search__group separate">
                 <input
                   type="text"
                   name=""
@@ -171,9 +171,20 @@
                 />
                 
               </div>
-              <div class="header__search__option">
-                <label for="" class="header__search__option__text">Trong shop</label>
+              <div class="header__search__option bridge">
+                <span class="header__search__option__text">Trong shop</span>
                 <i class="header__search__option__icon fa-solid fa-chevron-down"></i>
+                
+                  <ul class="header__search__option__list">
+                    <li class="option__list__item option__list__item__splice">
+                      <a href="" class="option__list__item__link">Trong shop</a>
+                      <i class="option__list__item__icon fa-solid fa-check"></i>
+                    </li>
+                    <li class="option__list__item">
+                      <a href="" class="option__list__item__link">Ngoài shop</a>
+                    </li>
+                  </ul>
+                
               </div>
               
               <button class="header__search__btn btn--s">
