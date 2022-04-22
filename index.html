@@ -137,12 +137,35 @@
                   Trợ giúp</a
                 >
               </li>
-              <li
-                class="navbar__item navbar__item--strong separate"
-              >
+              <li class="navbar__item navbar__item--strong separate">
                 Đăng ký
               </li>
               <li class="navbar__item navbar__item--strong">Đăng nhập</li>
+              <li class="navbar__item navbar__item__user">
+                <span class="navbar__item__avatar-wrap">
+                  <img
+                    src="./assets/img/header-user/cute-cat.jpg"
+                    alt="User-avatar"
+                    class="navbar__item__avatar"
+                  />
+                </span>
+                <span class="navbar__item__user-name">Hồ Vĩnh Tú</span>
+
+                <ul class="navbar__item__settings">
+                  <li class="setting__item">
+                    <a href="" class="setting__item__link">Tài khoản của tôi</a>
+                  </li>
+                  <li class="setting__item">
+                    <a href="" class="setting__item__link">Địa chỉ của tôi</a>
+                  </li>
+                  <li class="setting__item splice--s">
+                    <a href="" class="setting__item__link">Đơn mua</a>
+                  </li>
+                  <li class="setting__item">
+                    <a href="" class="setting__item__link setting__item--exit">Đăng xuất</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -178,40 +201,208 @@
                       <a href="" class="history__list__item__link">Mỹ phẩm</a>
                     </li>
                     <li class="history__list__item">
-                      <a href="" class="history__list__item__link">StreetWorkout</a>
+                      <a href="" class="history__list__item__link"
+                        >StreetWorkout</a
+                      >
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="header__search__option bridge">
                 <span class="header__search__option__text">Trong shop</span>
-                <i class="header__search__option__icon fa-solid fa-chevron-down"></i>
-                
-                  <ul class="header__search__option__list">
-                    <li class="option__list__item splice">
-                      <a href="" class="option__list__item__link">Trong shop</a>
-                      <i class="option__list__item__icon fa-solid fa-check"></i>
-                    </li>
-                    <li class="option__list__item">
-                      <a href="" class="option__list__item__link">Ngoài shop</a>
-                    </li>
-                  </ul>
-                
+                <i
+                  class="header__search__option__icon fa-solid fa-chevron-down"
+                ></i>
+
+                <ul class="header__search__option__list">
+                  <li class="option__list__item splice">
+                    <a href="" class="option__list__item__link">Trong shop</a>
+                    <i class="option__list__item__icon fa-solid fa-check"></i>
+                  </li>
+                  <li class="option__list__item">
+                    <a href="" class="option__list__item__link">Ngoài shop</a>
+                  </li>
+                </ul>
               </div>
-              
+
               <button class="header__search__btn btn--s">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
 
-            <div class="header__shopping">
+            <div class="header__shopping bridge">
               <a href="" class="header__shopping__link">
                 <i class="header__shopping__icon fa-solid fa-cart-shopping"></i>
               </a>
+              <span class="header__shopping__number">3</span>
+              <div class="header__shopping__list--status">
+                <div class="header__shopping--no-cart">
+                  <img
+                    src="./assets/img/header-cart/no-cart.png"
+                    alt="no-cart"
+                    class="no__cart__img"
+                  />
+                  <p class="no__cart__text">Chưa có sản phẩm</p>
+                </div>
+                <div class="header__shopping--have-cart-list">
+                  <p class="cart__list__header splice--s">Sản phẩm đã thêm</p>
+                  <ul class="cart__list">
+                    <li class="cart__list__item">
+                      <div class="cart__list__item__wrap-img">
+                        <img
+                          src="./assets/img/header-notify/ohui-notify.jpg"
+                          alt="cart-item"
+                          class="cart__list__item__image"
+                        />
+                      </div>
+                      <div class="cart__list__item__info">
+                        <h3 class="cart__list__item__name">
+                          Bộ kem đặc trị cùng mắt Ohio
+                        </h3>
+                        <p class="cart__list__item__type">
+                          Phân loại hàng: <span>Bạc</span>
+                        </p>
+                      </div>
+                      <div class="cart__list__item__footer">
+                        <div class="cart__list__item__price">
+                          <span class="item__cost">2.070.000đ</span>
+                          <span class="item__operator"> x </span>
+                          <span class="item__count"> 1 </span>
+                        </div>
+                        <div class="cart__list__item__delete">Xóa</div>
+                      </div>
+                    </li>
+                    <li class="cart__list__item">
+                      <div class="cart__list__item__wrap-img">
+                        <img
+                          src="./assets/img/header-notify/ohui-notify.jpg"
+                          alt="cart-item"
+                          class="cart__list__item__image"
+                        />
+                      </div>
+                      <div class="cart__list__item__info">
+                        <h3 class="cart__list__item__name">
+                          Bộ kem đặc trị cùng mắt Ohio
+                        </h3>
+                        <p class="cart__list__item__type">
+                          Phân loại hàng: <span>Bạc</span>
+                        </p>
+                      </div>
+                      <div class="cart__list__item__footer">
+                        <div class="cart__list__item__price">
+                          <span class="item__cost">2.070.000đ</span>
+                          <span class="item__operator"> x </span>
+                          <span class="item__count"> 1 </span>
+                        </div>
+                        <div class="cart__list__item__delete">Xóa</div>
+                      </div>
+                    </li>
+                    <li class="cart__list__item">
+                      <div class="cart__list__item__wrap-img">
+                        <img
+                          src="./assets/img/header-notify/ohui-notify.jpg"
+                          alt="cart-item"
+                          class="cart__list__item__image"
+                        />
+                      </div>
+                      <div class="cart__list__item__info">
+                        <h3 class="cart__list__item__name">
+                          Bộ kem đặc trị cùng mắt Ohio cùng mắt Ohio cùng mắt
+                          Ohio cùng mắt Ohio
+                        </h3>
+                        <p class="cart__list__item__type">
+                          Phân loại hàng: <span>Bạc</span>
+                        </p>
+                      </div>
+                      <div class="cart__list__item__footer">
+                        <div class="cart__list__item__price">
+                          <span class="item__cost">2.070.000đ</span>
+                          <span class="item__operator"> x </span>
+                          <span class="item__count"> 1 </span>
+                        </div>
+                        <div class="cart__list__item__delete">Xóa</div>
+                      </div>
+                    </li>
+                  </ul>
+                  <button class="btn btn--primary cart__list__button">
+                    Xem giỏ hàng
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </header>
+
+      <div class="body">
+        <div class="grid row">
+          <div class="col-2">
+            <div class="list__products">
+              <div class="list__products__header splice">
+                <i class="list__products__header__icon fa-solid fa-list-ul"></i>
+                <span class="list__products__header__text">Danh mục</span>
+              </div>
+              <ul class="list__product__type">
+                <li class="list__product__item ">
+                  <span class="arrow-right"></span>
+                  <a href="" class="list__product__item__link">Sản phẩm</a>
+                </li>
+                <li class="list__product__item">
+                  <span class="arrow-right"></span>
+                  <a href="" class="list__product__item__link">BEST SELLER</a>
+                </li>
+                <li class="list__product__item ">
+                  <span class="arrow-right"></span>
+                  <a href="" class="list__product__item__link">TRANG ĐIỂM MẶT</a>
+                </li>
+                <li class="list__product__item">
+                  <span class="arrow-right"></span>
+                  <a href="" class="list__product__item__link">TRANG ĐIỂM MÔI</a>
+                </li>
+                <li class="list__product__item">
+                  <span class="arrow-right"></span>
+                  <a href="" class="list__product__item__link">TRANG ĐIỂM MẮT</a>
+                </li>
+                <li class="list__product__item">
+                  <span class="arrow-right"></span>
+                  <a href="" class="list__product__item__link">MAKEUP COLLECTION</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="row">
+              <div class="home__fillter">
+                <div class="home__sort">
+                  <span class="home__sort__text">Sắp xếp theo</span>
+                  <button class="btn home__sort__btn">Phổ biến</button>
+                  <button class="btn btn--primary home__sort__btn">Mới nhất</button>
+                  <button class="btn home__sort__btn">Bán chạy</button>
+                  <button class="btn home__sort__btn home__sort__price">
+                    Giá
+                    <i class="home__sort__price__icon fa-solid fa-angle-down"></i>
+                    <ul class="home__sort__price__list">
+                      <li class="home__sort__price__item"></li>
+                    </ul>
+                  </button>
+                </div>
+                
+                <div class="home__num__page">
+                  <p class="home__num__page__text"><span class="current__page">1</span>/14</p>
+                  <span class="home__num__page__back">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </span>
+                  <span class="home__num__page__next">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        
+        </div>
+      </div>
     </div>
     <!-- Modal box -->
     <!-- <div class="modal">
