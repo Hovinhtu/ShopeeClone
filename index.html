@@ -335,7 +335,7 @@
       </header>
 
       <div class="body">
-        <div class="grid row">
+        <div class="grid grid__row">
           <div class="col-2">
             <div class="list__products">
               <div class="list__products__header splice">
@@ -371,7 +371,7 @@
             </div>
           </div>
           <div class="col-10">
-            <div class="row">
+          
               <div class="home__fillter">
                 <div class="home__sort">
                   <span class="home__sort__text">Sắp xếp theo</span>
@@ -379,26 +379,321 @@
                   <button class="btn btn--primary home__sort__btn">Mới nhất</button>
                   <button class="btn home__sort__btn">Bán chạy</button>
                   <button class="btn home__sort__btn home__sort__price">
-                    Giá
+                    <span>Giá</span>
                     <i class="home__sort__price__icon fa-solid fa-angle-down"></i>
                     <ul class="home__sort__price__list">
-                      <li class="home__sort__price__item"></li>
+                      <li class="home__sort__price__item">Giá: Thấp đến cao</li>
+                      <li class="home__sort__price__item">Giá: Cao đến thấp</li>
                     </ul>
                   </button>
                 </div>
                 
                 <div class="home__num__page">
                   <p class="home__num__page__text"><span class="current__page">1</span>/14</p>
-                  <span class="home__num__page__back">
+                  <span class="btn home__num__page__btn back">
                     <i class="fa-solid fa-angle-left"></i>
                   </span>
-                  <span class="home__num__page__next">
+                  <span class="btn home__num__page__btn next">
                     <i class="fa-solid fa-angle-right"></i>
-                  </span>
+                  </button>
                 </div>
               </div>
               
-            </div>
+              <div class="home__product">
+                <div class="row">
+                  <div class="col-10-2">
+                    <a href="" class="home__product__item">
+                      <div class="home__product__item__image" style="background-image: url(https://cf.shopee.vn/file/06b5c1f946841feda361358f9b5d75f8);"></div>
+                      <div class="home__product__item__info">
+                        <h4 class="home__product__item__name">Sét dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang Bộ kem trị nám</h4>
+                        <div class="home__product__item__price">
+                          <div class="home__product__item__cost home__product__item__cost--sale">12.300.000đ</div>
+                          <div class="home__product__item__sale--off">11.070.000đ</div>
+                        </div>
+                        <div class="home__product__item__icon">
+                          <div class="home__product__icon__group clicked--like">
+                            <i class="unliked fa-regular fa-heart"></i>
+                            <i class="liked fa-solid fa-heart"></i>
+                          </div>
+                          <ul class="home__product__item__vote">
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <span class="home__product__item__sold">99 Đã bán</span>
+                        </div>
+                        <div class="home__product__item__origin">
+                          <span class="home__product__item__company">Whoo</span>
+                          <span class="home__product__item__country">Hàn Quốc</span>
+                        </div>
+                        <div class="home__product__item__favorite">
+                          <i class="fa-solid fa-check"></i>
+                          Yêu thích
+                        </div>
+                        <div class="home__product__item__sale">
+                          <span class="background__label"></span>
+                          <div class="home__product__item__sale__text"> <div class="sale__count">10%</div>Giảm</div>
+                        </div>
+                      </div> 
+                     
+                    </a>
+                  </div>
+                  <div class="col-10-2">
+                    <a href="" class="home__product__item">
+                      <div class="home__product__item__image" style="background-image: url(https://cf.shopee.vn/file/06b5c1f946841feda361358f9b5d75f8);"></div>
+                      <div class="home__product__item__info">
+                        <h4 class="home__product__item__name">Sét dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang Bộ kem trị nám</h4>
+                        <div class="home__product__item__price">
+                          <div class="home__product__item__cost home__product__item__cost--sale">12.300.000đ</div>
+                          <div class="home__product__item__sale--off">11.070.000đ</div>
+                        </div>
+                        <div class="home__product__item__icon">
+                          <div class="home__product__icon__group clicked--like">
+                            <i class="unliked fa-regular fa-heart"></i>
+                            <i class="liked fa-solid fa-heart"></i>
+                          </div>
+                          <ul class="home__product__item__vote">
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <span class="home__product__item__sold">99 Đã bán</span>
+                        </div>
+                        <div class="home__product__item__origin">
+                          <span class="home__product__item__company">Whoo</span>
+                          <span class="home__product__item__country">Hàn Quốc</span>
+                        </div>
+                        <div class="home__product__item__favorite">
+                          <i class="fa-solid fa-check"></i>
+                          Yêu thích
+                        </div>
+                        <div class="home__product__item__sale">
+                          <span class="background__label"></span>
+                          <div class="home__product__item__sale__text"> <div class="sale__count">10%</div>Giảm</div>
+                        </div>
+                      </div> 
+                     
+                    </a>
+                  </div><div class="col-10-2">
+                    <a href="" class="home__product__item">
+                      <div class="home__product__item__image" style="background-image: url(https://cf.shopee.vn/file/06b5c1f946841feda361358f9b5d75f8);"></div>
+                      <div class="home__product__item__info">
+                        <h4 class="home__product__item__name">Sét dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang Bộ kem trị nám</h4>
+                        <div class="home__product__item__price">
+                          <div class="home__product__item__cost home__product__item__cost--sale">12.300.000đ</div>
+                          <div class="home__product__item__sale--off">11.070.000đ</div>
+                        </div>
+                        <div class="home__product__item__icon">
+                          <div class="home__product__icon__group clicked--like">
+                            <i class="unliked fa-regular fa-heart"></i>
+                            <i class="liked fa-solid fa-heart"></i>
+                          </div>
+                          <ul class="home__product__item__vote">
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <span class="home__product__item__sold">99 Đã bán</span>
+                        </div>
+                        <div class="home__product__item__origin">
+                          <span class="home__product__item__company">Whoo</span>
+                          <span class="home__product__item__country">Hàn Quốc</span>
+                        </div>
+                        <div class="home__product__item__favorite">
+                          <i class="fa-solid fa-check"></i>
+                          Yêu thích
+                        </div>
+                        <div class="home__product__item__sale">
+                          <span class="background__label"></span>
+                          <div class="home__product__item__sale__text"> <div class="sale__count">10%</div>Giảm</div>
+                        </div>
+                      </div> 
+                     
+                    </a>
+                  </div><div class="col-10-2">
+                    <a href="" class="home__product__item">
+                      <div class="home__product__item__image" style="background-image: url(https://cf.shopee.vn/file/06b5c1f946841feda361358f9b5d75f8);"></div>
+                      <div class="home__product__item__info">
+                        <h4 class="home__product__item__name">Sét dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang Bộ kem trị nám</h4>
+                        <div class="home__product__item__price">
+                          <div class="home__product__item__cost home__product__item__cost--sale">12.300.000đ</div>
+                          <div class="home__product__item__sale--off">11.070.000đ</div>
+                        </div>
+                        <div class="home__product__item__icon">
+                          <div class="home__product__icon__group clicked--like">
+                            <i class="unliked fa-regular fa-heart"></i>
+                            <i class="liked fa-solid fa-heart"></i>
+                          </div>
+                          <ul class="home__product__item__vote">
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <span class="home__product__item__sold">99 Đã bán</span>
+                        </div>
+                        <div class="home__product__item__origin">
+                          <span class="home__product__item__company">Whoo</span>
+                          <span class="home__product__item__country">Hàn Quốc</span>
+                        </div>
+                        <div class="home__product__item__favorite">
+                          <i class="fa-solid fa-check"></i>
+                          Yêu thích
+                        </div>
+                        <div class="home__product__item__sale">
+                          <span class="background__label"></span>
+                          <div class="home__product__item__sale__text"> <div class="sale__count">10%</div>Giảm</div>
+                        </div>
+                      </div> 
+                     
+                    </a>
+                  </div><div class="col-10-2">
+                    <a href="" class="home__product__item">
+                      <div class="home__product__item__image" style="background-image: url(https://cf.shopee.vn/file/06b5c1f946841feda361358f9b5d75f8);"></div>
+                      <div class="home__product__item__info">
+                        <h4 class="home__product__item__name">Sét dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang Bộ kem trị nám</h4>
+                        <div class="home__product__item__price">
+                          <div class="home__product__item__cost home__product__item__cost--sale">12.300.000đ</div>
+                          <div class="home__product__item__sale--off">11.070.000đ</div>
+                        </div>
+                        <div class="home__product__item__icon">
+                          <div class="home__product__icon__group clicked--like">
+                            <i class="unliked fa-regular fa-heart"></i>
+                            <i class="liked fa-solid fa-heart"></i>
+                          </div>
+                          <ul class="home__product__item__vote">
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <span class="home__product__item__sold">99 Đã bán</span>
+                        </div>
+                        <div class="home__product__item__origin">
+                          <span class="home__product__item__company">Whoo</span>
+                          <span class="home__product__item__country">Hàn Quốc</span>
+                        </div>
+                        <div class="home__product__item__favorite">
+                          <i class="fa-solid fa-check"></i>
+                          Yêu thích
+                        </div>
+                        <div class="home__product__item__sale">
+                          <span class="background__label"></span>
+                          <div class="home__product__item__sale__text"> <div class="sale__count">10%</div>Giảm</div>
+                        </div>
+                      </div> 
+                     
+                    </a>
+                  </div><div class="col-10-2">
+                    <a href="" class="home__product__item">
+                      <div class="home__product__item__image" style="background-image: url(https://cf.shopee.vn/file/06b5c1f946841feda361358f9b5d75f8);"></div>
+                      <div class="home__product__item__info">
+                        <h4 class="home__product__item__name">Sét dưỡng trắng Whoo đông y hoàng cung Gong Jinh Yang Bộ kem trị nám</h4>
+                        <div class="home__product__item__price">
+                          <div class="home__product__item__cost home__product__item__cost--sale">12.300.000đ</div>
+                          <div class="home__product__item__sale--off">11.070.000đ</div>
+                        </div>
+                        <div class="home__product__item__icon">
+                          <div class="home__product__icon__group clicked--like">
+                            <i class="unliked fa-regular fa-heart"></i>
+                            <i class="liked fa-solid fa-heart"></i>
+                          </div>
+                          <ul class="home__product__item__vote">
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                            <li class="home__product__item__vote__icon">
+                              <i class="vote__icon__active fa-solid fa-star"></i>
+                            </li>
+                          </ul>
+                          <span class="home__product__item__sold">99 Đã bán</span>
+                        </div>
+                        <div class="home__product__item__origin">
+                          <span class="home__product__item__company">Whoo</span>
+                          <span class="home__product__item__country">Hàn Quốc</span>
+                        </div>
+                        <div class="home__product__item__favorite">
+                          <i class="fa-solid fa-check"></i>
+                          Yêu thích
+                        </div>
+                        <div class="home__product__item__sale">
+                          <span class="background__label"></span>
+                          <div class="home__product__item__sale__text"> <div class="sale__count">10%</div>Giảm</div>
+                        </div>
+                      </div> 
+                     
+                    </a>
+                  </div>
+                </div>
+               
+              </div>
           </div>
         
         </div>
