@@ -148,3 +148,43 @@ html {
   opacity: 0.9;
 }
 
+/* Home pagination */
+
+.home__pagination{
+  display: flex;
+  justify-content: center;
+}
+
+.home__pagination__item{
+  list-style: none;
+  font-size: 1.8rem;
+  min-width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 12px;
+  border-radius: 3px;
+}
+
+.home__pagination__link{
+  text-decoration: none;
+  color: var(--text-color);
+  display: block;
+}
+
+.current--page:hover{
+  filter: brightness(90%);
+}
+
+.current--page{
+  background-color: #f53e2d;
+}
+
+.current--page .home__pagination__link{
+  color: #fff;
+}
+
+.home__product__pagination{
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
